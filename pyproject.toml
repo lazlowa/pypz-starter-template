@@ -11,6 +11,9 @@ requires-python = ">=3.11"
 keywords = [
     "pypz"
 ]
+dependencies = [
+    "pypz-core"
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

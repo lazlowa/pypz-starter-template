@@ -1,5 +1,5 @@
 ### Using the pypz python base image ###
-FROM lazlowa/pypz-python-dev:latest
+FROM pypz/python-base-dev:latest
 
 ### Copying project context ###
 COPY dist/* ./
